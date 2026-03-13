@@ -6,16 +6,19 @@ This setup provides a clean GNOME desktop similar to Ubuntu while remaining full
 
 [![GNOME on Raspberry Pi](https://wobbo.org/screenshots/20250225__373028_Intro_GUIDE_mini.webp)](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
 
-First install [Raspberry Pi OS Lite \(64-bit\) 423MB ↗ ](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit). If you are using the [Raspberry Pi Imager ↗ ](https://www.raspberrypi.com/software/) on Windows, Mac or Ubuntu to install Raspberry Pi OS Lite, I recommend filling in the Customization Settings. 
+First install [Raspberry Pi OS Lite \(64-bit\) 423MB ↗ ](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit). If you are using the [Raspberry Pi Imager ↗ ](https://www.raspberrypi.com/software/) on Windows, Mac or Ubuntu to install Raspberry Pi OS Lite, I recommend filling in the Customization Settings. After installing Raspberry Pi OS Lite \(64-bit\), log in and type:
+
 
 ```bash
 wget -O install-gnome.sh https://wobbo.org/install/2026-03-10/install-gnome.sh
 chmod +x install-gnome.sh
 ./install-gnome.sh
 ```
+🤔 Which keyboard do I have? Information about keyboards: [HOWTO: Choose the correct keyboard](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497) 
+
 ⚠️ Important: This script is intended only for a fresh Raspberry Pi OS Lite installation. Do not run it on an existing system.
 
-ℹ️ All additional are required to run Yaru correctly in GNOME: Yaru themes for [GNOME](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gnome-shell_25.04.1-0ubuntu1_all.deb), [GTK](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gtk_25.04.1-0ubuntu1_all.deb), [icons](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-icon_25.04.1-0ubuntu1_all.deb), [sounds](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-sound_25.04.1-0ubuntu1_all.deb), [Unity](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-unity_25.04.1-0ubuntu1_all.deb) and [LibreOffice](https://github.com/wobbo/libreoffice-yaru/raw/refs/heads/main/libreoffice_yaru-themes_2025-09-23.zip); supporting scripts and services to automatically apply and preserve the Yaru look; a pinned Geary version chosen specifically to maintain visual and design consistency with GNOME in Yaru style.
+ℹ️ All additional components required to run Yaru correctly in GNOME are included: Yaru themes for [GNOME](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gnome-shell_25.04.1-0ubuntu1_all.deb), [GTK](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gtk_25.04.1-0ubuntu1_all.deb), [icons](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-icon_25.04.1-0ubuntu1_all.deb), [sounds](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-sound_25.04.1-0ubuntu1_all.deb), [Unity](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-unity_25.04.1-0ubuntu1_all.deb) and [LibreOffice](https://github.com/wobbo/libreoffice-yaru/raw/refs/heads/main/libreoffice_yaru-themes_2025-09-23.zip); supporting scripts and services that automatically apply and preserve the Yaru appearance; and a pinned Geary version chosen specifically to maintain visual and design consistency with GNOME in Yaru style. 
 
 ---
 
