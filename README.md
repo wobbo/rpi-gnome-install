@@ -6,7 +6,7 @@ This setup provides a clean GNOME desktop similar to Ubuntu while remaining full
 
 [![GNOME on Raspberry Pi](https://wobbo.org/screenshots/20250225__373028_Intro_GUIDE_mini.webp)](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
 
-First install [Raspberry Pi OS Lite \(64-bit\) 423MB ↗ ](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit). If you are using the [Raspberry Pi Imager ↗ ](https://www.raspberrypi.com/software/) on Windows, Mac or Ubuntu to install Raspberry Pi OS Lite, I recommend filling in the Customization Settings. After installing Raspberry Pi OS Lite \(64-bit\), log in and type:
+First install [Raspberry Pi OS Lite \(64-bit\) 487MB ↗ ](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit). If you are using the [Raspberry Pi Imager ↗ ](https://www.raspberrypi.com/software/) on Windows, Mac or Ubuntu to install Raspberry Pi OS Lite, I recommend filling in the Customization Settings. After installing Raspberry Pi OS Lite \(64-bit\), log in and type:
 
 
 ```bash
