@@ -115,9 +115,9 @@ I’ve prepared the Yaru (Ubuntu) icon theme for LibreOffice so it can be instal
 ---
 
 ### GitHub:
-- [rpi-gnome-install](https://github.com/wobbo/rpi-gnome-install) – Install GNOME on Raspberry Pi OS Lite for *Debian Trixie*, *GNOME*, *ARM64*.   
+- [rpi-gnome](https://github.com/wobbo/rpi-gnome) – Install GNOME on Raspberry Pi OS Lite for *Debian Trixie*, *GNOME*, *ARM64*.   
 - [signal-desktop](https://github.com/wobbo/signal-desktop) – Install Signal Desktop on *Debian Trixie*, *GNOME*, *ARM64*.  
 - [geary-debian](https://github.com/wobbo/geary-debian) – Geary 44.1 for *Debian Trixie*, *GNOME*, *ARM64*.
-- [nordvpn-wireguard-generator](https://github.com/wobbo/nordvpn-wireguard-generator) – Generate WireGuard configs from NordLynx for *Debian Trixie*, *GNOME*.
+- [nordvpn-wireguard](https://github.com/wobbo/nordvpn-wireguard) – Generate WireGuard configs from NordLynx for *Debian Trixie*, *GNOME*.
 - [debian-yaru](https://github.com/wobbo/debian-yaru) – Yaru themes for *Debian Trixie*, *GNOME*.  
 - [libreoffice-yaru](https://github.com/wobbo/libreoffice-yaru) – LibreOffice Yaru themes for *Debian Trixie*.
