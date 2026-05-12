@@ -10,7 +10,7 @@ First install [Raspberry Pi OS Lite \(64-bit\) 487MB ↗ ](https://www.raspber
 
 
 ```bash
-wget -O install-gnome.sh https://wobbo.org/install/2026-03-28/install-gnome.sh
+wget -O install-gnome.sh https://wobbo.org/install/2026-05-12/install-gnome.sh
 chmod +x install-gnome.sh
 ./install-gnome.sh
 ```
