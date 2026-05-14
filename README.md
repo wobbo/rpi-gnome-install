@@ -20,6 +20,9 @@ chmod +x install-gnome.sh
 
 ℹ️ All additional components required to run [Yaru correctly in GNOME **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104) are included: Yaru themes for [GNOME](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gnome-shell_25.04.1-0ubuntu1_all.deb), [GTK](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gtk_25.04.1-0ubuntu1_all.deb), [icons](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-icon_25.04.1-0ubuntu1_all.deb), [sounds](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-sound_25.04.1-0ubuntu1_all.deb), [Unity](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-unity_25.04.1-0ubuntu1_all.deb) and [LibreOffice](https://github.com/wobbo/libreoffice-yaru/raw/refs/heads/main/libreoffice_yaru-themes_2025-09-23.zip); supporting scripts and services that automatically apply and preserve the Yaru appearance; and a pinned Geary version chosen specifically to maintain visual and design consistency with GNOME in Yaru style. 
 
+
+
+
 ---
 
 ## Overview
