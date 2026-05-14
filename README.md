@@ -2,11 +2,11 @@
 
 Transform a fresh Raspberry Pi OS Lite (Debian 13 Trixie) installation into a fully configured GNOME workstation optimized for Raspberry Pi hardware.
 
-This setup provides a clean GNOME desktop similar to Ubuntu while remaining fully based on Debian and Raspberry Pi packages to ensure proper hardware acceleration and efficient performance on Raspberry Pi systems. For more information go to the Raspberry Pi forum [GUIDE: Full GNOME on Raspberry Pi OS Lite ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
+This setup provides a clean GNOME desktop similar to Ubuntu while remaining fully based on Debian and Raspberry Pi packages to ensure proper hardware acceleration and efficient performance on Raspberry Pi systems. For more information go to the Raspberry Pi forum [GUIDE: Full GNOME on Raspberry Pi OS Lite **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
 
 [![GNOME on Raspberry Pi](https://wobbo.org/screenshots/20250225__373028_Intro_GUIDE_mini.webp)](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
 
-First install [Raspberry Pi OS Lite \(64-bit\) 487MB ↗ ](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit). If you are using the [Raspberry Pi Imager ↗ ](https://www.raspberrypi.com/software/) on Windows, Mac or Ubuntu to install Raspberry Pi OS Lite, I recommend filling in the Customization Settings. After installing Raspberry Pi OS Lite \(64-bit\), log in and type:
+Then start your Raspberry Pi. On first boot of a **_fresh_** Raspberry Pi OS **Lite** installation, do not install anything else. Log in to the terminal and run exactly the following commands. In _Step 1_, when asked for the system locale, select [your own language/locale **↗**](https://forums.raspberrypi.com/viewtopic.php?t=398271#p2375720), **not** _None_ or _C.UTF-8_. For _Step 2_, more information about choosing the correct [keyboard layout **↗**](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497) can be found here.
 
 
 ```bash
@@ -14,11 +14,11 @@ wget -O install-gnome.sh https://wobbo.org/install/2026-05-12/install-gnome.sh
 chmod +x install-gnome.sh
 ./install-gnome.sh
 ```
-🤔 Which keyboard do I have? Information about keyboards: [HOWTO: Choose the correct keyboard ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497) 
+🤔 Which keyboard do I have? Information about keyboards: [HOWTO: Choose the correct keyboard **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497) and  [keyboard layout **↗**](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497)
 
 ⚠️ Important: This script is intended only for a fresh Raspberry Pi OS Lite installation. Do not run it on an existing system.
 
-ℹ️ All additional components required to run [Yaru correctly in GNOME ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104) are included: Yaru themes for [GNOME](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gnome-shell_25.04.1-0ubuntu1_all.deb), [GTK](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gtk_25.04.1-0ubuntu1_all.deb), [icons](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-icon_25.04.1-0ubuntu1_all.deb), [sounds](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-sound_25.04.1-0ubuntu1_all.deb), [Unity](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-unity_25.04.1-0ubuntu1_all.deb) and [LibreOffice](https://github.com/wobbo/libreoffice-yaru/raw/refs/heads/main/libreoffice_yaru-themes_2025-09-23.zip); supporting scripts and services that automatically apply and preserve the Yaru appearance; and a pinned Geary version chosen specifically to maintain visual and design consistency with GNOME in Yaru style. 
+ℹ️ All additional components required to run [Yaru correctly in GNOME **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104) are included: Yaru themes for [GNOME](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gnome-shell_25.04.1-0ubuntu1_all.deb), [GTK](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-gtk_25.04.1-0ubuntu1_all.deb), [icons](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-icon_25.04.1-0ubuntu1_all.deb), [sounds](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-sound_25.04.1-0ubuntu1_all.deb), [Unity](https://github.com/wobbo/debian-yaru/releases/download/v1/yaru-theme-unity_25.04.1-0ubuntu1_all.deb) and [LibreOffice](https://github.com/wobbo/libreoffice-yaru/raw/refs/heads/main/libreoffice_yaru-themes_2025-09-23.zip); supporting scripts and services that automatically apply and preserve the Yaru appearance; and a pinned Geary version chosen specifically to maintain visual and design consistency with GNOME in Yaru style. 
 
 ---
 
@@ -75,7 +75,7 @@ The result is a polished Ubuntu-style GNOME desktop experience optimized specifi
 
 Complete installation instructions and background information are available on the Raspberry Pi forum:
 
-[Install GNOME on Raspberry Pi OS Lite (Ubuntu-like) ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
+[Install GNOME on Raspberry Pi OS Lite (Ubuntu-like) **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=373028#p2233233)
 
 ---
 
@@ -83,34 +83,35 @@ Complete installation instructions and background information are available on t
 
 ### Tool: Keyboard and Locale Configuration
 
-Choose the [correct locale and keyboard layout ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497) for your system. A complete overview for selecting the correct locale and keyboard layout on Raspberry Pi OS is available here.
+Choose the [correct locale and keyboard layout **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497) for your system. A complete overview for selecting the correct locale and keyboard layout on Raspberry Pi OS is available here.
 This includes information about **ANSI, ISO and JIS keyboards** as well as common layouts such as **QWERTY, AZERTY and QWERTZ**. 
 
-[HOWTO: Choose the correct locale & keyboard (ANSI, ISO, JIS, QWERTY, AZERTY, QWERTZ) ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497)
+[HOWTO: Choose the correct locale & keyboard (ANSI, ISO, JIS, QWERTY, AZERTY, QWERTZ) **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=392681#p2342497)
 
 ![Overview for selecting locale and keyboard layout.](https://wobbo.org/screenshots/20250721_local_language.webp)
 
 ---
 
 ### Fix: Ubuntu Yaru
-I built a small set of Ubuntu Yaru theme packages for Raspberry Pi OS (Debian 13) with GNOME 48 to work around a Debian 13 theming bug. These are plain theme packages (no binaries) and should be architecture-independent. [FIX: Yaru theme .deb for Raspberry Pi OS (Debian 13, GNOME 48) ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104)
+I built a small set of Ubuntu Yaru theme packages for Raspberry Pi OS (Debian 13) with GNOME 48 to work around a Debian 13 theming bug. These are plain theme packages (no binaries) and should be architecture-independent. [FIX: Yaru theme .deb for Raspberry Pi OS (Debian 13, GNOME 48) **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=393000#p2344104)
 
 ---
 
 ### Launches Geary in Background
-By simply adding an account in Online Accounts, Geary can immediately access and manage email without requiring additional configuration. You wil then get update bij every new mails. [HOWTO: Email Client Geary and Launches in Background on Startup ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=387502#p2313459) 
+By simply adding an account in Online Accounts, Geary can immediately access and manage email without requiring additional configuration. You wil then get update bij every new mails. [HOWTO: Email Client Geary and Launches in Background on Startup **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=387502#p2313459) 
 
 ---
 
 ### LibreOffice Yaru Theme for Raspberry Pi OS Trixie
-I’ve prepared the Yaru (Ubuntu) icon theme for LibreOffice so it can be installed easily on Raspberry Pi OS Trixie (Debian 13). It was originally made for Raspberry Pi OS GNOME, but it should also work well with other desktop environments. [LibreOffice Yaru Theme for Raspberry Pi OS Trixie ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=393058#p2344404)
+I’ve prepared the Yaru (Ubuntu) icon theme for LibreOffice so it can be installed easily on Raspberry Pi OS Trixie (Debian 13). It was originally made for Raspberry Pi OS GNOME, but it should also work well with other desktop environments. [LibreOffice Yaru Theme for Raspberry Pi OS Trixie **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=393058#p2344404)
 
 ---
 
 ### Tip Rasberry forum
-- [HOWTO: NordVPN (NordLynx) to Native WireGuard .conf (Raspberry Pi GNOME / Android) ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=395466#p2358920)
-- [INSTALL: Signal Desktop for Raspberry Pi OS ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=387491#p2313410)
-- [INSTALL: Sunshine and Moonlight instead VPN, RDP, SteamLink ↗ ](https://forums.raspberrypi.com/viewtopic.php?t=387996#p2315741)
+- [HOWTO: NordVPN (NordLynx) to Native WireGuard .conf (Raspberry Pi GNOME / Android) **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=395466#p2358920)
+- [INSTALL: Signal Desktop for Raspberry Pi OS **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=387491#p2313410)
+- [INSTALL: Sunshine and Moonlight instead VPN, RDP, SteamLink **↗** ](https://forums.raspberrypi.com/viewtopic.php?t=387996#p2315741)
+- [](https://forums.raspberrypi.com/viewtopic.php?t=398271#p2375720)
 
 ---
 
