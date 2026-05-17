@@ -1,3 +1,8 @@
+# 2026-05-12 UTC
+# Ernst Lanser <ernst.lanser@wobbo.org>
+# https://forums.raspberrypi.com/viewtopic.php?t=373028
+# https://github.com/wobbo/rpi-gnome-install
+
 # Detect the real user and home folder.
 #
 # This block runs as root, but many settings must be written for the normal user
