@@ -10,7 +10,7 @@ Then start your Raspberry Pi. On first boot of a **_fresh_** Raspberry Pi OS **L
 
 
 ```bash
-wget -O install-gnome.sh https://wobbo.org/install/2026-05-12/install-gnome.sh
+wget -O install-gnome.sh https://wobbo.org/install/2026-05-21/install-gnome.sh
 chmod +x install-gnome.sh
 ./install-gnome.sh
 ```
